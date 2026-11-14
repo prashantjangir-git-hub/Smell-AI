@@ -1,0 +1,2 @@
+# Only needed for a real BME688 sensor (README Part 3)
+pyserial>=3.5

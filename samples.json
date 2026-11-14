@@ -1,0 +1,99 @@
+{
+  "coffee": {
+    "emoji": "☕",
+    "description": "Room-temperature ground coffee",
+    "molecules": [
+      {"name": "2-furfurylthiol", "smiles": "SCc1ccco1", "weight": 1.0},
+      {"name": "2-ethyl-3,5-dimethylpyrazine", "smiles": "CCc1ncc(C)nc1C", "weight": 0.8},
+      {"name": "guaiacol", "smiles": "COc1ccccc1O", "weight": 0.6},
+      {"name": "4-vinylguaiacol", "smiles": "COc1cc(C=C)ccc1O", "weight": 0.5},
+      {"name": "furaneol", "smiles": "CC1OC(C)=C(O)C1=O", "weight": 0.5},
+      {"name": "2,3-butanedione", "smiles": "CC(=O)C(C)=O", "weight": 0.4},
+      {"name": "methional", "smiles": "CSCCC=O", "weight": 0.3},
+      {"name": "furfural", "smiles": "O=Cc1ccco1", "weight": 0.3}
+    ]
+  },
+  "vanilla candle": {
+    "emoji": "🕯️",
+    "description": "A vanilla-scented candle (unlit)",
+    "molecules": [
+      {"name": "vanillin", "smiles": "COc1cc(C=O)ccc1O", "weight": 1.0},
+      {"name": "ethyl vanillin", "smiles": "CCOc1cc(C=O)ccc1O", "weight": 0.6},
+      {"name": "coumarin", "smiles": "O=c1ccc2ccccc2o1", "weight": 0.4},
+      {"name": "heliotropin", "smiles": "O=Cc1ccc2OCOc2c1", "weight": 0.3},
+      {"name": "benzyl alcohol", "smiles": "OCc1ccccc1", "weight": 0.2}
+    ]
+  },
+  "mint": {
+    "emoji": "🌿",
+    "description": "Fresh peppermint leaves",
+    "molecules": [
+      {"name": "menthol", "smiles": "CC(C)C1CCC(C)CC1O", "weight": 1.0},
+      {"name": "menthone", "smiles": "CC(C)C1CCC(C)CC1=O", "weight": 0.7},
+      {"name": "1,8-cineole", "smiles": "CC12CCC(CC1)C(C)(C)O2", "weight": 0.4},
+      {"name": "menthyl acetate", "smiles": "CC(C)C1CCC(C)CC1OC(C)=O", "weight": 0.3},
+      {"name": "limonene", "smiles": "CC(=C)C1CCC(C)=CC1", "weight": 0.2},
+      {"name": "alpha-pinene", "smiles": "CC1=CCC2CC1C2(C)C", "weight": 0.15}
+    ]
+  },
+  "lemon": {
+    "emoji": "🍋",
+    "description": "Freshly cut lemon peel",
+    "molecules": [
+      {"name": "limonene", "smiles": "CC(=C)C1CCC(C)=CC1", "weight": 1.0},
+      {"name": "citral (geranial)", "smiles": "CC(C)=CCCC(C)=CC=O", "weight": 0.8},
+      {"name": "beta-pinene", "smiles": "C=C1CCC2CC1C2(C)C", "weight": 0.4},
+      {"name": "gamma-terpinene", "smiles": "CC(C)C1=CCC(C)=CC1", "weight": 0.3},
+      {"name": "linalool", "smiles": "CC(C)=CCCC(C)(O)C=C", "weight": 0.2},
+      {"name": "geranyl acetate", "smiles": "CC(C)=CCCC(C)=CCOC(C)=O", "weight": 0.2},
+      {"name": "decanal", "smiles": "CCCCCCCCCC=O", "weight": 0.15}
+    ]
+  },
+  "banana": {
+    "emoji": "🍌",
+    "description": "A ripe banana",
+    "molecules": [
+      {"name": "isoamyl acetate", "smiles": "CC(C)CCOC(C)=O", "weight": 1.0},
+      {"name": "isobutyl acetate", "smiles": "CC(C)COC(C)=O", "weight": 0.5},
+      {"name": "butyl butyrate", "smiles": "CCCCOC(=O)CCC", "weight": 0.4},
+      {"name": "hexyl acetate", "smiles": "CCCCCCOC(C)=O", "weight": 0.3},
+      {"name": "2-pentyl acetate", "smiles": "CCCC(C)OC(C)=O", "weight": 0.3},
+      {"name": "eugenol", "smiles": "COc1cc(CC=C)ccc1O", "weight": 0.15},
+      {"name": "(E)-2-hexenal", "smiles": "CCCC=CC=O", "weight": 0.15}
+    ]
+  },
+  "wood smoke": {
+    "emoji": "🔥",
+    "description": "Smoke from a wood fire, caught in cloth",
+    "molecules": [
+      {"name": "guaiacol", "smiles": "COc1ccccc1O", "weight": 1.0},
+      {"name": "4-methylguaiacol", "smiles": "COc1cc(C)ccc1O", "weight": 0.7},
+      {"name": "syringol", "smiles": "COc1cccc(OC)c1O", "weight": 0.6},
+      {"name": "4-ethylguaiacol", "smiles": "CCc1ccc(O)c(OC)c1", "weight": 0.4},
+      {"name": "phenol", "smiles": "Oc1ccccc1", "weight": 0.4},
+      {"name": "p-cresol", "smiles": "Cc1ccc(O)cc1", "weight": 0.3},
+      {"name": "furfural", "smiles": "O=Cc1ccco1", "weight": 0.3}
+    ]
+  },
+  "rose": {
+    "emoji": "🌹",
+    "description": "A fresh rose (extra smell, not in the original guide)",
+    "molecules": [
+      {"name": "2-phenylethanol", "smiles": "OCCc1ccccc1", "weight": 1.0},
+      {"name": "geraniol", "smiles": "CC(C)=CCCC(C)=CCO", "weight": 0.8},
+      {"name": "citronellol", "smiles": "CC(C)=CCCC(C)CCO", "weight": 0.7},
+      {"name": "rose oxide", "smiles": "CC1CCOC(C=C(C)C)C1", "weight": 0.3},
+      {"name": "beta-damascenone", "smiles": "CC=CC(=O)C1=C(C)C=CCC1(C)C", "weight": 0.3}
+    ]
+  },
+  "garlic": {
+    "emoji": "🧄",
+    "description": "Crushed garlic (extra smell, not in the original guide)",
+    "molecules": [
+      {"name": "diallyl disulfide", "smiles": "C=CCSSCC=C", "weight": 1.0},
+      {"name": "diallyl trisulfide", "smiles": "C=CCSSSCC=C", "weight": 0.6},
+      {"name": "allyl methyl disulfide", "smiles": "CSSCC=C", "weight": 0.4},
+      {"name": "allyl mercaptan", "smiles": "C=CCS", "weight": 0.3}
+    ]
+  }
+}
